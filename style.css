@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: antiquewhite;
+}
+
+ul{
+    background-color: black;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    color: white;
+}
+ul li{
+    list-style: none;
+ padding: 0 12px;
+ font-size: 18px;
+}
+.logo{
+    height: 30px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    font-size: bolder;
+    padding: 0 10px;
+}
+.logo img{
+    height: 45px;
+}
+span{
+    padding: 0 6px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.container{
+background-color: black;
+color:white;
+min-height: 70vh;
+width: 70%;
+margin: 20px auto;
+border-radius: 10px;
+background-image: url('./pexels-daniel-reche-3721941.jpg');
+background-size: cover;
+    
+}
+.song_lists{
+padding: 20px 20px;
+margin: 20px 10px;
+}
+.song_item {
+    font-size: 20px;
+    height: 45px;
+    margin: 20px 0px;
+    width: 64%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    color: black;
+    border-radius: 10px;
+    padding: 0px 20px;
+    justify-content: space-between;
+    
+}
+.songs_img{
+    height: 35px;
+    width: 35px;
+    border-radius:50%
+}
+.bottom{
+    position: sticky;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#timer{
+    width: 80vw; 
+    cursor: pointer;
+}
+.btn:focus {
+    outline: none;
+}
+.btn:focus {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+    outline: none; 
+}
+/* .songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+} */
+
+
+
+
+
+
